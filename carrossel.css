@@ -1,0 +1,183 @@
+
+.carrossel__titulo{
+    background-color: var(--branco);
+    color: var(--laranja);
+    font-weight: 700;
+    padding: 1em 0 1em 0;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+.swiperswiper-slide, .carrossel__imagem{
+    width: 100%;
+}
+.swiper-pagination{
+    position: initial;
+    margin: 0.5em 0;
+}
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+.card{
+    background-color: var(--branco);
+    margin: 1em;
+    /* border: 1px solid var(--branco);
+    padding: 1.5em 1em; */
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 1.5em 1em;
+}
+
+.card__descricao{
+display: flex;
+justify-content: space-between;
+margin-bottom: 0.5em;
+}
+.descricao{
+    margin: 0.5em 0; 
+}
+.card__titulo{
+    color: var(--laranja);
+    font-weight: 700;
+
+}
+.card__titulo-texto{
+    color: var(--azul);
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0.5em 0; 
+}
+.card__paragrafo{
+    color: var(--preto);
+    font-weight: 400;
+    font-size: 14px;
+  
+}
+.card__botoes{
+   display: flex;
+   justify-content: space-between;
+    }
+    .botoes{
+        display: flex;
+    }
+    .botoes__item{
+        margin: 0 0.5em;
+    }
+
+.card__botao{
+font-weight: 700;
+background-color: var(--laranja);
+color: var(--branco);
+text-decoration: none;
+padding: 1em 2.2em;
+}
+
+
+@media screen and (min-width: 1024px){
+    .secao-titulo{  
+  font-size: 36px;
+  }
+  .secao__busca{
+    width: 40%;
+  }
+  
+  .secao__busca::placeholder{
+  background-position: 3em;
+  
+  }
+  .secao__banner{
+    padding: 5em 0;
+  
+  }
+    .carrossel__titulo{
+        font-size: 26px;
+    }
+    .swiper-pagination{
+    margin: 2em 0 3em 0;
+    }
+    .swiper{
+        width: 60%;
+    }
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+        top: 60%;
+        
+    }
+}
+/* DESKTOP */
+
+@media screen and (min-width:1366px) {
+
+    /* MEU CÓDIGO SEM RESPONSIVIDADE E COM MUITAS LINHAS */
+
+    .secao__busca{
+        width: 35%;
+      }
+      
+      .secao__busca::placeholder{
+      background-position: 6em;
+      
+      }
+      .secao__banner{
+        padding: 5em 0;
+      }
+    .card{
+        width: 50%;
+        margin: 2em auto;  
+    }
+   .carrossel__container{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 50%;
+    margin: 3em 4em 5em 4em;
+}
+.card__titulo{
+    font-size: 32px;
+font-weight: 700;
+}
+.card__titulo-texto{
+    font-size: 18px;
+}
+.carrossel__imagem{
+    width: 70%;
+    margin: 0 3em; 
+}  
+
+}
+
+    /* .secao__busca{
+        width: 35%;
+      }
+      
+      .secao__busca::placeholder{
+      background-position: 6em;
+      
+      }
+      .secao__banner{
+        padding: 5em 0;
+      
+      }
+    .carrossel__titulo{
+        font-size: 32px;
+    }
+
+    .carrossel__container{
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination{
+        margin: 1em 0;
+    }
+
+    .swiper{
+        width: 50%;
+    }
+.card{
+    width: 60%;
+    margin-left: 3em ;
+} */
+
